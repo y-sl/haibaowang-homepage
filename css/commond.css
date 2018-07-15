@@ -1,0 +1,155 @@
+@charset "utf-8";
+/*第一个轮播右侧箭头共同样式*/
+.arrow1 .swiper-button-next{
+    width: 70px;
+    height: 70px;
+    top: 208px;
+    right: -70px;
+    background: url(../images/uicon.png) no-repeat 3px -44px;
+    transition: .3s;
+}
+.arrow1 .swiper-button-prev{
+    width: 70px;
+    height: 70px;
+    top: 280px;
+    left: 753px;
+    background: url(../images/uicon.png) no-repeat 0 -120px;
+    transition: .3s;
+}
+/*第一个复杂hover共同样式*/
+.hover-bg{
+    top: 150px;
+    width: 300px;
+    height: 0px;
+    background-color: rgba(0,0,0,.8);
+    transition: .2s;
+}
+.hover{
+    overflow: hidden;
+    top: 150px;
+    width: 0px;
+    height: 4px;
+    cursor: pointer;
+    transition: .1s ease;
+}
+.hover .hover-text{
+    width: 300px;
+    margin: 85px 35px 0 35px;
+    text-align: center;
+}
+ .hover .hover-text p{
+    overflow: hidden;
+    width: 230px;
+    height: 63px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 21px;
+}
+/*共同标题*/
+.commond-title{
+    height: 36px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    line-height: 36px;
+    text-align: center;
+}
+.commond-title a{
+    padding: 0 12px;
+}
+/*评论小图标样式*/
+#content .icon{
+    margin-top: 10px;
+}
+#content .icon i{
+    display: inline-block;
+    width: 17px;
+    height: 18px;
+    margin-right: 15px;
+    background:url("../images/icon_indexbg.jpg") no-repeat 0 -23px;
+    vertical-align: middle;
+}
+/*往上跑的hover样式*/
+#content .uhover{
+    bottom: -160px;
+    left: 14px;
+    z-index: 10;
+    width: 214px;
+    height: 145px;
+    padding: 0 14px 15px;
+    background-color: #fff;
+    transition: .4s;
+}
+/*品牌轮播的共同样式*/
+.swiper4 .time{
+    margin-left: 15px;;
+    color: #888;
+}
+.swiper4 h3{
+    line-height: 28px;
+}
+.swiper4 img{
+    margin: 0 auto;
+}
+.swiper4 .swiper-pagination-bullet{
+    width: 25px;
+    height: 4px;
+    margin-right: 8px;
+    margin-left: 0;
+    background-color: #db3a45;
+    border-radius: 0;
+}
+.swiper4 .swiper-pagination-bullets{
+    bottom: 128px;
+}
+.swiper4 .swiper-button-prev{
+    width: 30px;
+    height: 49px;
+    top: 200px;
+    left: 60px;
+    background: url(../images/uicon.png) no-repeat -350px -201px;
+    transition: .3s;
+    opacity: 0;
+}
+.swiper4 .swiper-button-next{
+    width: 30px;
+    height: 49px;
+    top: 200px;
+    left: 705px;
+    background: url(../images/uicon.png) no-repeat -381px -201px;
+    transition: .3s;
+    opacity: 0;
+}
+/*轮播3共同样式*/
+.swiper3{
+    width: 467px;
+    height: 480px;
+}
+.swiper3 h3{
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 32px;
+}
+.swiper3 h3 span{
+    margin-left: 12px;
+    color: #888;
+    font-size: 12px;
+}
+#swiper3 .swiper-button-next{
+    top: 128px;
+    right: -70px;
+}
+#swiper3 .swiper-button-prev{
+    top: 200px;
+    left: 467px;
+}
+#swiper3 .swiper-pagination{
+    bottom: 130px;
+}
+.swiper3 .swiper-pagination-bullet{
+    width: 25px;
+    height: 4px;
+    margin-right: 8px;
+    margin-left: 0;
+    background-color: #db3a45;
+    border-radius: 0;
+}

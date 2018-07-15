@@ -1,0 +1,67 @@
+@charset "utf-8";
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}
+fieldset,img{border:0}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}
+ol,ul{list-style:none}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
+a{text-decoration:none;color:#000;}
+
+/*清除浮动*/
+.clearfix:after{
+	display:block;
+	content:'';
+	clear:both;
+}
+
+/*浮动*/
+.f-l{
+	float:left;
+}
+.f-r{
+	float:right;
+}
+ul li{
+	float:left;
+}
+/*定位*/
+.p-r{
+	position:relative;
+}
+.p-a{
+	position:absolute;
+}
+/*元素转换*/
+.w100{
+	width: 100%;
+}
+.w750{
+	width: 750px;
+}
+#wrap .db{
+	display:block;
+}
+#wrap .dn{
+	display:none;
+}
+#wrap .show{
+	display: block;
+}
+.mt20{
+	margin-top: 20px;
+}
+.mb20{
+	margin-bottom: 20px;
+}
+.ml40{
+	margin-left: 40px;
+}
+#content .mr0{
+	margin-right: 0;
+}
+.mb40{
+	margin-bottom: 40px;
+}
+.ma1080{
+	width: 1080px;
+	margin: 0 auto;
+}

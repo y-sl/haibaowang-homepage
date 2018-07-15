@@ -1,0 +1,166 @@
+@charset "utf-8";
+#wrap a:hover{
+    color: #db3a45;
+}
+/*头部导航更多样式hover*/
+.t-nav .more a:hover{
+    background: url(../images/nav2016-morebg.png) no-repeat 0 24px;
+}
+/*第一个轮播右侧箭头hover样式*/                                                           /* 头部hover结束*/
+.arrow1:hover .swiper-button-prev{
+    left: 683px;
+}
+.arrow1:hover .swiper-button-next{
+    right: 0px;
+}
+.banner3 .period:hover .white{
+    margin-top: -32px;
+}
+.banner3 .period:hover .black{
+    margin-top: 0px;
+}
+.touch:hover .hover{
+    top: 0px;
+    left: 0;
+    width: 300px;
+    height: 300px;
+}
+.touch:hover .hover-bg{
+    top: 0px;
+    left: 0;
+    width: 300px;
+    height: 300px;
+}
+.h-star:hover{
+    background-color: #fff;
+    color: #000;
+}                                         /*最难的hover*/
+                                         /* video点击箭头  */
+.v-list .uimg:hover span{
+    background-color: #000;
+    /*opacity: .7;*/
+}
+.v-list .uimg:hover i{
+    background: url(../images/uicon.png) no-repeat -225px -156px;
+}
+.v-list .list-f .uimg:hover i{
+    background: url(../images/uicon.png) no-repeat -127px -146px;
+}
+#swiper3:hover .swiper-button-prev{
+    left: 400px;
+}
+#swiper3:hover .swiper-button-next{
+    right: 0px;
+}
+/*往上跑的hover*/
+#content .uuhover:hover .uhover{
+    bottom: 0px;
+}
+.plan .p-title .tabtitle li:hover i{
+    width: 100%;
+    left: 0;
+}
+.plan .p-title .tabtitle li:hover .p-tabitem{
+    display: block;
+}
+/*plan 下的go*/
+.plan .p-nav .go:hover .top{
+    margin-top: -30px;
+}
+.plan .p-nav .go:hover .bottom{
+    margin-top: 0px;
+}
+/*品牌轮播左右箭头hover*/
+#swiper4:hover .swiper-button-prev{
+    left: 120px;
+    opacity: 1;
+}
+#swiper4:hover .swiper-button-next{
+    left: 645px;
+    opacity: 1;
+}
+.img-top:hover .hover{
+    top: 0px;
+    left: 0;
+    width: 240px;
+    height: 240px;
+}
+.img-top:hover .hover-bg{
+    top: 0px;
+    left: 0;
+    width: 240px;
+    height: 240px;
+}
+#content .b-img .hover-text a:hover{
+    color: #db3a45;
+}
+#swiper5:hover .swiper-button-prev{
+    left: 120px;
+    opacity: 1;
+}
+#swiper5:hover .swiper-button-next{
+    left: 645px;
+    opacity: 1;
+}
+#swiper6:hover .swiper-button-next{
+    right: 0;
+}
+#swiper6:hover .swiper-button-prev{
+   left: 400px;
+}
+/*珠宝腕表hover样式*/
+.watch-ff:hover .w-hover{
+    bottom: 0px;
+}
+.watch-rr:hover .w-hover{
+    bottom: 0px;
+}
+#swiper7:hover .swiper-button-prev{
+    left: 120px;
+    opacity: 1;
+}
+#swiper7:hover .swiper-button-next{
+    left: 645px;
+    opacity: 1;
+}
+/*互动的爱心hover*/
+.i-main .h-love:hover .i-hover{
+    display: block;
+}
+.i-main-l .main-l-r a .one:hover{
+    background:  url(../images/uicon.png) -731px -200px no-repeat;
+}
+.i-main-l .main-l-r a .two:hover{
+    background:  url(../images/uicon.png) -731px -298px no-repeat;
+}
+.i-main-l .main-l-r a .three:hover{
+    background:  url(../images/uicon.png) -731px -347px no-repeat;
+}
+.g-uitems:hover .hover{
+    top: 0px;
+    left: 0;
+    width: 245px;
+    height: 247px;
+}
+.g-uitems:hover .hover-bg{
+    top: 0px;
+    left: 0;
+    width: 245px;
+    height: 247px;
+}
+#content .img-top .hover .hover-text a:hover{
+    color: #db3a45;
+}
+/*页尾hover*/
+.footer-top .top-main .app-l:hover .app-top{
+    display: block;
+}
+.footer-top .top-main .app-l:hover+.app{
+    margin-top: 55px;
+}
+.footer-top .top-main .app-r:hover img{
+    display: block;
+}
+.footer-bottom a:hover{
+    color: #db4a35;
+}
